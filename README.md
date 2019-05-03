@@ -1,9 +1,9 @@
 ---
 home: true
-heroImage: /hero.png
+heroImage: /logo.png
 actionText: Get Started →
-actionLink: /guide/
-footer: MIT Licensed | Copyright © 2018-present Evan You
+actionLink: https://green.nxx.cloud
+footer: Copyright © 2019-present 耐小心 && 卡农云
 ---
 
 <div style="text-align: center">
@@ -12,36 +12,15 @@ footer: MIT Licensed | Copyright © 2018-present Evan You
 
 <div class="features">
   <div class="feature">
-    <h2>Simplicity First</h2>
-    <p>Minimal setup with markdown-centered project structure helps you focus on writing.</p>
+    <h2>快速接入</h2>
+    <p>支持Qiniu/OSS/本地附件快速接入。MagAPP可无缝接入</p>
   </div>
   <div class="feature">
-    <h2>Vue-Powered</h2>
-    <p>Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue.</p>
+    <h2>秒级审核</h2>
+    <p>快速自动审核只需要2-3s即可完成审核</p>
   </div>
   <div class="feature">
-    <h2>Performant</h2>
-    <p>VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.</p>
+    <h2>按量计费</h2>
+    <p>按量计费,根据鉴定图片次数收费</p>
   </div>
 </div>
-
-### As Easy as 1, 2, 3
-
-``` bash
-# install
-yarn global add vuepress@next 
-# OR npm install -g vuepress@next
-
-# create a markdown file
-echo '# Hello VuePress' > README.md
-
-# start writing
-vuepress dev
-
-# build to static files
-vuepress build
-```
-
-::: warning COMPATIBILITY NOTE
-VuePress requires Node.js >= 8.6.
-:::
